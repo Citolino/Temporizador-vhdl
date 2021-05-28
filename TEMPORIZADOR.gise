@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="TEMPORIZADOR.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContadorDezenaSegundos.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ContadorDezenaSegundos.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ContadorDezenaSegundos.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContadorMinutos.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ContadorMinutos.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ContadorMinutos.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SD_COMPLETO.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SD_COMPLETO.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SD_COMPLETO.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SD_COMPLETO.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SD_COMPLETO.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SD_COMPLETO.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SD_COMPLETO.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SD_COMPLETO.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SD_COMPLETO_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SD_COMPLETO_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SD_COMPLETO_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SD_COMPLETO_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="UC_ASM_temporizador.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="UC_ASM_temporizador.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="UC_ASM_temporizador.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="UC_ASM_temporizador.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UC_ASM_temporizador.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="UC_ASM_temporizador.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="UC_ASM_temporizador.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="UC_ASM_temporizador.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="UC_ASM_temporizador_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="UC_ASM_temporizador_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UC_ASM_temporizador_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="UC_ASM_temporizador_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="temporizador.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="temporizador.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="temporizador.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="temporizador.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="temporizador.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="temporizador.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="temporizador.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="temporizador.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="temporizador_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="temporizador_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="temporizador_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="temporizador_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="temporizador_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="temporizador_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="teste_asm_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="teste_asm_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="teste_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="teste_sd_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="teste_sd_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="teste_sd_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="teste_sd_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="teste_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1621906417" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1621906417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622223922" xil_pn:in_ck="2422448301781552972" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1622223922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Contador.vhd"/>
+      <outfile xil_pn:name="ContadorDezenaMinutos.vhd"/>
+      <outfile xil_pn:name="ContadorDezenaSegundos.vhd"/>
+      <outfile xil_pn:name="ContadorMinutos.vhd"/>
+      <outfile xil_pn:name="ContadorSegundos.vhd"/>
+      <outfile xil_pn:name="Display7seg.vhd"/>
+      <outfile xil_pn:name="SD_COMPLETO.vhd"/>
+      <outfile xil_pn:name="UC-ASM_temporizador.vhd"/>
+      <outfile xil_pn:name="ValidaTermino.vhd"/>
+      <outfile xil_pn:name="temporizador.vhd"/>
+      <outfile xil_pn:name="teste.vhd"/>
+      <outfile xil_pn:name="teste_asm.vhd"/>
+      <outfile xil_pn:name="teste_sd.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1622227382" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1406124459859374511" xil_pn:start_ts="1622227382">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622227382" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-987227385578056045" xil_pn:start_ts="1622227382">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622149973" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6430118519318052409" xil_pn:start_ts="1622149973">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622223928" xil_pn:in_ck="2422448301781552972" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1622223928">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Contador.vhd"/>
+      <outfile xil_pn:name="ContadorDezenaMinutos.vhd"/>
+      <outfile xil_pn:name="ContadorDezenaSegundos.vhd"/>
+      <outfile xil_pn:name="ContadorMinutos.vhd"/>
+      <outfile xil_pn:name="ContadorSegundos.vhd"/>
+      <outfile xil_pn:name="Display7seg.vhd"/>
+      <outfile xil_pn:name="SD_COMPLETO.vhd"/>
+      <outfile xil_pn:name="UC-ASM_temporizador.vhd"/>
+      <outfile xil_pn:name="ValidaTermino.vhd"/>
+      <outfile xil_pn:name="temporizador.vhd"/>
+      <outfile xil_pn:name="teste.vhd"/>
+      <outfile xil_pn:name="teste_asm.vhd"/>
+      <outfile xil_pn:name="teste_sd.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1622227385" xil_pn:in_ck="2422448301781552972" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3529579286088987812" xil_pn:start_ts="1622227382">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="teste_sd_beh.prj"/>
+      <outfile xil_pn:name="teste_sd_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1622227386" xil_pn:in_ck="-1020440292113235423" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="334479233922241553" xil_pn:start_ts="1622227385">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="teste_sd_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1621982748" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1621982748">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622149828" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1048522709487803838" xil_pn:start_ts="1622149828">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622149828" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6430118519318052409" xil_pn:start_ts="1622149828">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622149828" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1622149828">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622149828" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8979548930647991748" xil_pn:start_ts="1622149828">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622150241" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1622150241">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622150241" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="6572355052627825681" xil_pn:start_ts="1622150241">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1622150247" xil_pn:in_ck="-7745219079822357769" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5495260562390447716" xil_pn:start_ts="1622150241">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="SD_COMPLETO.lso"/>
+      <outfile xil_pn:name="SD_COMPLETO.ngc"/>
+      <outfile xil_pn:name="SD_COMPLETO.ngr"/>
+      <outfile xil_pn:name="SD_COMPLETO.prj"/>
+      <outfile xil_pn:name="SD_COMPLETO.stx"/>
+      <outfile xil_pn:name="SD_COMPLETO.syr"/>
+      <outfile xil_pn:name="SD_COMPLETO.xst"/>
+      <outfile xil_pn:name="SD_COMPLETO_vhdl.prj"/>
+      <outfile xil_pn:name="SD_COMPLETO_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="temporizador.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

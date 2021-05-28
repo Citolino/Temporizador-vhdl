@@ -1,0 +1,36 @@
+
+
+NET "entradaSistema[3]" LOC = N3;
+NET "entradaSistema[2]" LOC = E2;
+NET "entradaSistema[1]" LOC = F3;
+NET "entradaSistema[0]" LOC = G3;
+
+
+NET "startandpause" LOC = P11;
+NET "clrSistema" LOC = L3;
+
+NET "en1" LOC = G12;
+NET "en2" LOC = C11;
+NET "en3" LOC = M4;
+NET "en4" LOC = A7;
+
+
+
+NET "ledfinal" LOC = G1;
+
+
+NET "clockSistema" LOC = B8;
+
+NET "saida[0]" LOC = M12;
+NET "saida[1]" LOC = L13;
+NET "saida[2]" LOC = P12;
+NET "saida[3]" LOC = N11;
+NET "saida[4]" LOC = N14;
+NET "saida[5]" LOC = H12;
+NET "saida[6]" LOC = L14;
+
+
+NET "led4" LOC = F12;
+NET "led3" LOC = J12;
+NET "led2" LOC = M13;
+NET "led1" LOC = K14;

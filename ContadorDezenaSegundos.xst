@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/xst"
+elaborate
+-ifn ContadorDezenaSegundos.prj
+-ifmt mixed

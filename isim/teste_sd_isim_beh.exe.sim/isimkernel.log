@@ -1,0 +1,29 @@
+Command line:
+   teste_sd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54353
+
+Fri May 28 15:43:45 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.24 Meg
+
+ Total Signals          : 141
+ Total Nets             : 85
+ Total Signal Drivers   : 47
+ Total Blocks           : 14
+ Total Primitive Blocks : 11
+ Total Processes        : 27
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 464
+Total Line Count : 183
+
+ Total Simulation Time: 0.234375 sec
+
+ Current Memory Usage: 5464.81 Meg
+
+Fri May 28 15:44:30 2021
+

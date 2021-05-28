@@ -1,0 +1,679 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: SD_COMPLETO.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SD_COMPLETO.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SD_COMPLETO"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : SD_COMPLETO
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Contador.vhd" in Library work.
+Entity <contadordeclock> compiled.
+Entity <contadordeclock> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaSegundos.vhd" in Library work.
+Entity <contadordezenasegundos> compiled.
+Entity <contadordezenasegundos> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorSegundos.vhd" in Library work.
+Entity <contadorsegundos> compiled.
+Entity <contadorsegundos> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaMinutos.vhd" in Library work.
+Entity <contadordezenaminutos> compiled.
+Entity <contadordezenaminutos> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorMinutos.vhd" in Library work.
+Entity <contadorminutos> compiled.
+Entity <contadorminutos> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Display7seg.vhd" in Library work.
+Entity <display7seg> compiled.
+Entity <display7seg> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ValidaTermino.vhd" in Library work.
+Entity <validatermino> compiled.
+Entity <validatermino> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC-ASM_temporizador.vhd" in Library work.
+Architecture behavioral of Entity uc_asm_temporizador is up to date.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/temporizador.vhd" in Library work.
+Entity <temporizador> compiled.
+Entity <temporizador> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/SD_COMPLETO.vhd" in Library work.
+Entity <sd_completo> compiled.
+Entity <SD_COMPLETO> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <SD_COMPLETO> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <UC_ASM_temporizador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <temporizador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ContadorDeClock> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ContadorDezenaSegundos> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ContadorSegundos> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ContadorDezenaMinutos> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ContadorMinutos> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Display7seg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ValidaTermino> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <SD_COMPLETO> in library <work> (Architecture <Behavioral>).
+Entity <SD_COMPLETO> analyzed. Unit <SD_COMPLETO> generated.
+
+Analyzing Entity <UC_ASM_temporizador> in library <work> (Architecture <behavioral>).
+Entity <UC_ASM_temporizador> analyzed. Unit <UC_ASM_temporizador> generated.
+
+Analyzing Entity <temporizador> in library <work> (Architecture <behavioral>).
+Entity <temporizador> analyzed. Unit <temporizador> generated.
+
+Analyzing Entity <ContadorDeClock> in library <work> (Architecture <behavioral>).
+Entity <ContadorDeClock> analyzed. Unit <ContadorDeClock> generated.
+
+Analyzing Entity <ContadorDezenaSegundos> in library <work> (Architecture <behavioral>).
+Entity <ContadorDezenaSegundos> analyzed. Unit <ContadorDezenaSegundos> generated.
+
+Analyzing Entity <ContadorSegundos> in library <work> (Architecture <behavioral>).
+Entity <ContadorSegundos> analyzed. Unit <ContadorSegundos> generated.
+
+Analyzing Entity <ContadorDezenaMinutos> in library <work> (Architecture <behavioral>).
+Entity <ContadorDezenaMinutos> analyzed. Unit <ContadorDezenaMinutos> generated.
+
+Analyzing Entity <ContadorMinutos> in library <work> (Architecture <behavioral>).
+Entity <ContadorMinutos> analyzed. Unit <ContadorMinutos> generated.
+
+Analyzing Entity <Display7seg> in library <work> (Architecture <behavioral>).
+Entity <Display7seg> analyzed. Unit <Display7seg> generated.
+
+Analyzing Entity <ValidaTermino> in library <work> (Architecture <behavioral>).
+Entity <ValidaTermino> analyzed. Unit <ValidaTermino> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <UC_ASM_temporizador>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC-ASM_temporizador.vhd".
+    Found finite state machine <FSM_0> for signal <ESTADO_ATUAL>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 9                                              |
+    | Clock              | CLK_UC                    (rising_edge)        |
+    | Reset              | RST_UC                    (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | est_0                                          |
+    | Power Up State     | est_0                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 1-bit latch for signal <EN4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <EN3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <EN2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <EN1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <UC_ASM_temporizador> synthesized.
+
+
+Synthesizing Unit <ContadorDeClock>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Contador.vhd".
+    Found 32-bit up counter for signal <Cont>.
+    Found 1-bit register for signal <saida>.
+    Found 32-bit comparator less for signal <saida$cmp_lt0000> created at line 23.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <ContadorDeClock> synthesized.
+
+
+Synthesizing Unit <ContadorDezenaSegundos>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaSegundos.vhd".
+    Found 4-bit register for signal <saidaregis>.
+    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 34.
+    Found 4-bit comparator greater for signal <saidaregis$cmp_gt0000> created at line 29.
+    Found 4-bit comparator lessequal for signal <saidaregis$cmp_le0000> created at line 27.
+    Found 4-bit comparator less for signal <saidaregis$cmp_lt0000> created at line 33.
+    Found 1-bit register for signal <tiraproximo>.
+    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 33.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <ContadorDezenaSegundos> synthesized.
+
+
+Synthesizing Unit <ContadorSegundos>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorSegundos.vhd".
+    Found 1-bit register for signal <resetaAnterior>.
+    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 30.
+    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 28.
+    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 34.
+    Found 4-bit register for signal <saidaregis>.
+    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 35.
+    Found 1-bit register for signal <tiraproximo>.
+    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 34.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <ContadorSegundos> synthesized.
+
+
+Synthesizing Unit <ContadorDezenaMinutos>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaMinutos.vhd".
+    Found 1-bit register for signal <resetaAnterior>.
+    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 34.
+    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 32.
+    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 38.
+    Found 4-bit register for signal <saidaregis>.
+    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 39.
+    Found 1-bit register for signal <tiraproximo>.
+    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 38.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <ContadorDezenaMinutos> synthesized.
+
+
+Synthesizing Unit <ContadorMinutos>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorMinutos.vhd".
+    Found 1-bit register for signal <resetaAnterior>.
+    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 31.
+    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 29.
+    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 35.
+    Found 4-bit register for signal <saidaregis>.
+    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 36.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <ContadorMinutos> synthesized.
+
+
+Synthesizing Unit <Display7seg>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Display7seg.vhd".
+    Found 4x4-bit ROM for signal <estado$rom0000>.
+    Found 16x7-bit ROM for signal <saida7>.
+    Found 32-bit up counter for signal <count>.
+    Found 32-bit comparator less for signal <count$cmp_lt0000> created at line 27.
+    Found 2-bit up counter for signal <estado>.
+    Found 2-bit comparator less for signal <estado$cmp_lt0000> created at line 28.
+    Found 4-bit 4-to-1 multiplexer for signal <selDisplay>.
+    Summary:
+	inferred   2 ROM(s).
+	inferred   2 Counter(s).
+	inferred   2 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <Display7seg> synthesized.
+
+
+Synthesizing Unit <ValidaTermino>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ValidaTermino.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <saida>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <ValidaTermino> synthesized.
+
+
+Synthesizing Unit <temporizador>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/temporizador.vhd".
+Unit <temporizador> synthesized.
+
+
+Synthesizing Unit <SD_COMPLETO>.
+    Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/SD_COMPLETO.vhd".
+Unit <SD_COMPLETO> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 4
+ 4-bit subtractor                                      : 4
+# Counters                                             : 3
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 2
+# Registers                                            : 11
+ 1-bit register                                        : 7
+ 4-bit register                                        : 4
+# Latches                                              : 5
+ 1-bit latch                                           : 5
+# Comparators                                          : 18
+ 2-bit comparator less                                 : 1
+ 32-bit comparator less                                : 2
+ 4-bit comparator greatequal                           : 3
+ 4-bit comparator greater                              : 4
+ 4-bit comparator less                                 : 4
+ 4-bit comparator lessequal                            : 4
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <UC/ESTADO_ATUAL/FSM> on signal <ESTADO_ATUAL[1:9]> with one-hot encoding.
+--------------------
+ State | Encoding
+--------------------
+ est_0 | 000000001
+ est_1 | 000000010
+ est_2 | 000000100
+ est_3 | 000001000
+ est_4 | 000010000
+ est_5 | 000100000
+ est_6 | 001000000
+ est_7 | 010000000
+ est_8 | 100000000
+--------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Adders/Subtractors                                   : 4
+ 4-bit subtractor                                      : 4
+# Counters                                             : 3
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 2
+# Registers                                            : 23
+ Flip-Flops                                            : 23
+# Latches                                              : 5
+ 1-bit latch                                           : 5
+# Comparators                                          : 18
+ 2-bit comparator less                                 : 1
+ 32-bit comparator less                                : 2
+ 4-bit comparator greatequal                           : 3
+ 4-bit comparator greater                              : 4
+ 4-bit comparator less                                 : 4
+ 4-bit comparator lessequal                            : 4
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SD_COMPLETO> ...
+
+Optimizing unit <ContadorMinutos> ...
+
+Optimizing unit <Display7seg> ...
+
+Optimizing unit <ContadorDezenaSegundos> ...
+
+Optimizing unit <ContadorSegundos> ...
+
+Optimizing unit <ContadorDezenaMinutos> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SD_COMPLETO, actual ratio is 10.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 98
+ Flip-Flops                                            : 98
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SD_COMPLETO.ngr
+Top Level Output File Name         : SD_COMPLETO
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 23
+
+Cell Usage :
+# BELS                             : 340
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 65
+#      LUT2                        : 15
+#      LUT3                        : 29
+#      LUT3_D                      : 1
+#      LUT3_L                      : 3
+#      LUT4                        : 53
+#      LUT4_L                      : 2
+#      MUXCY                       : 83
+#      MUXF5                       : 15
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 103
+#      FDC                         : 7
+#      FDCE                        : 10
+#      FDE                         : 3
+#      FDPE                        : 7
+#      FDR                         : 65
+#      FDRE                        : 6
+#      LD                          : 5
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 22
+#      IBUF                        : 10
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       92  out of    960     9%  
+ Number of Slice Flip Flops:            102  out of   1920     5%  
+ Number of 4 input LUTs:                176  out of   1920     9%  
+ Number of IOs:                          23
+ Number of bonded IOBs:                  23  out of     83    27%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)        | Load  |
+-----------------------------------+------------------------------+-------+
+UC/EN4_or0000(UC/EN4_or000013_f5:O)| NONE(*)(UC/EN4)              | 4     |
+FDTemporizador/p1/saida            | NONE(FDTemporizador/p7/saida)| 1     |
+CLK_SD                             | BUFGP                        | 98    |
+-----------------------------------+------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------------------------------+-------------------------------------+-------+
+Control Signal                                                      | Buffer(FF name)                     | Load  |
+--------------------------------------------------------------------+-------------------------------------+-------+
+RST_SD                                                              | IBUF                                | 9     |
+FDTemporizador/p3/resetaAnterior(FDTemporizador/p3/resetaAnterior:Q)| NONE(FDTemporizador/p2/saidaregis_0)| 5     |
+FDTemporizador/p4/resetaAnterior(FDTemporizador/p4/resetaAnterior:Q)| NONE(FDTemporizador/p3/saidaregis_0)| 5     |
+FDTemporizador/p5/resetaAnterior(FDTemporizador/p5/resetaAnterior:Q)| NONE(FDTemporizador/p4/saidaregis_0)| 5     |
+--------------------------------------------------------------------+-------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.647ns (Maximum Frequency: 150.440MHz)
+   Minimum input arrival time before clock: 5.310ns
+   Maximum output required time after clock: 8.070ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_SD'
+  Clock period: 6.647ns (frequency: 150.440MHz)
+  Total number of paths / destination ports: 3353 / 187
+-------------------------------------------------------------------------
+Delay:               6.647ns (Levels of Logic = 13)
+  Source:            FDTemporizador/p6/count_1 (FF)
+  Destination:       FDTemporizador/p6/estado_1 (FF)
+  Source Clock:      CLK_SD rising
+  Destination Clock: CLK_SD rising
+
+  Data Path: FDTemporizador/p6/count_1 to FDTemporizador/p6/estado_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  FDTemporizador/p6/count_1 (FDTemporizador/p6/count_1)
+     LUT1:I0->O            1   0.704   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<0>_rt (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<0> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<1> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<2> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<3> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<4> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<5> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<6> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<7> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<8> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<9> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<9>)
+     MUXCY:CI->O          35   0.331   1.342  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<10> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<10>)
+     LUT2:I1->O            2   0.704   0.447  FDTemporizador/p6/estado_and00001 (FDTemporizador/p6/estado_and0000)
+     FDRE:R                    0.911          FDTemporizador/p6/estado_0
+    ----------------------------------------
+    Total                      6.647ns (4.236ns logic, 2.411ns route)
+                                       (63.7% logic, 36.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_SD'
+  Total number of paths / destination ports: 109 / 53
+-------------------------------------------------------------------------
+Offset:              5.310ns (Levels of Logic = 3)
+  Source:            startandpause (PAD)
+  Destination:       FDTemporizador/p3/saidaregis_0 (FF)
+  Destination Clock: CLK_SD rising
+
+  Data Path: startandpause to FDTemporizador/p3/saidaregis_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.836  startandpause_IBUF (startandpause_IBUF)
+     LUT3:I1->O            3   0.704   0.706  FDTemporizador/p4/saidaregis_not000121 (FDTemporizador/p4/resetaAnterior_and0003)
+     LUT4:I0->O            4   0.704   0.587  FDTemporizador/p4/saidaregis_not0001 (FDTemporizador/p4/saidaregis_not0001)
+     FDPE:CE                   0.555          FDTemporizador/p4/saidaregis_0
+    ----------------------------------------
+    Total                      5.310ns (3.181ns logic, 2.129ns route)
+                                       (59.9% logic, 40.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FDTemporizador/p1/saida'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.368ns (Levels of Logic = 1)
+  Source:            FDTemporizador/p7/saida (LATCH)
+  Destination:       ledFim (PAD)
+  Source Clock:      FDTemporizador/p1/saida falling
+
+  Data Path: FDTemporizador/p7/saida to ledFim
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.420  FDTemporizador/p7/saida (FDTemporizador/p7/saida)
+     OBUF:I->O                 3.272          ledFim_OBUF (ledFim)
+    ----------------------------------------
+    Total                      4.368ns (3.948ns logic, 0.420ns route)
+                                       (90.4% logic, 9.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_SD'
+  Total number of paths / destination ports: 204 / 11
+-------------------------------------------------------------------------
+Offset:              8.070ns (Levels of Logic = 4)
+  Source:            FDTemporizador/p6/estado_0 (FF)
+  Destination:       saida7seg<6> (PAD)
+  Source Clock:      CLK_SD rising
+
+  Data Path: FDTemporizador/p6/estado_0 to saida7seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            14   0.591   1.175  FDTemporizador/p6/estado_0 (FDTemporizador/p6/estado_0)
+     LUT3:I0->O            1   0.704   0.000  FDTemporizador/p6/Mmux_selDisplay_3 (FDTemporizador/p6/Mmux_selDisplay_3)
+     MUXF5:I1->O           7   0.321   0.883  FDTemporizador/p6/Mmux_selDisplay_2_f5 (FDTemporizador/p6/selDisplay<0>)
+     LUT4:I0->O            1   0.704   0.420  FDTemporizador/p6/Mrom_saida761 (saida7seg_6_OBUF)
+     OBUF:I->O                 3.272          saida7seg_6_OBUF (saida7seg<6>)
+    ----------------------------------------
+    Total                      8.070ns (5.592ns logic, 2.478ns route)
+                                       (69.3% logic, 30.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.15 secs
+ 
+--> 
+
+Total memory usage is 4506644 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

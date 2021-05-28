@@ -1,0 +1,2 @@
+vhdl isim_temp "UC-ASM_temporizador.vhd"
+vhdl isim_temp "teste_asm.vhd"

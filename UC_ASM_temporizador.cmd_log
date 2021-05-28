@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC_ASM_temporizador.xst" -ofn "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC_ASM_temporizador.syr" 
+xst -intstyle ise -ifn "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC_ASM_temporizador.xst" -ofn "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC_ASM_temporizador.syr" 

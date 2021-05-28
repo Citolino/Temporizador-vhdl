@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/teste_sd_isim_beh.exe" -prj "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/teste_sd_beh.prj" "work.teste_sd" 
