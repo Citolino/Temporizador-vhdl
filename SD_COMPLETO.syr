@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: SD_COMPLETO.prj
 
@@ -126,18 +126,19 @@ Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Valid
 Entity <validatermino> compiled.
 Entity <validatermino> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC-ASM_temporizador.vhd" in Library work.
-Architecture behavioral of Entity uc_asm_temporizador is up to date.
+Entity <uc_asm_temporizador> compiled.
+Entity <uc_asm_temporizador> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/temporizador.vhd" in Library work.
 Entity <temporizador> compiled.
 Entity <temporizador> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/SD_COMPLETO.vhd" in Library work.
 Entity <sd_completo> compiled.
-Entity <SD_COMPLETO> (Architecture <Behavioral>) compiled.
+Entity <sd_completo> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <SD_COMPLETO> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <SD_COMPLETO> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <UC_ASM_temporizador> in library <work> (architecture <behavioral>).
 
@@ -161,7 +162,7 @@ Analyzing hierarchy for entity <ValidaTermino> in library <work> (architecture <
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <SD_COMPLETO> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <SD_COMPLETO> in library <work> (Architecture <behavioral>).
 Entity <SD_COMPLETO> analyzed. Unit <SD_COMPLETO> generated.
 
 Analyzing Entity <UC_ASM_temporizador> in library <work> (Architecture <behavioral>).
@@ -231,7 +232,7 @@ Synthesizing Unit <ContadorDeClock>.
     Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Contador.vhd".
     Found 32-bit up counter for signal <Cont>.
     Found 1-bit register for signal <saida>.
-    Found 32-bit comparator less for signal <saida$cmp_lt0000> created at line 23.
+    Found 32-bit comparator less for signal <saida$cmp_lt0000> created at line 26.
     Summary:
 	inferred   1 Counter(s).
 	inferred   1 D-type flip-flop(s).
@@ -242,12 +243,12 @@ Unit <ContadorDeClock> synthesized.
 Synthesizing Unit <ContadorDezenaSegundos>.
     Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaSegundos.vhd".
     Found 4-bit register for signal <saidaregis>.
-    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 34.
-    Found 4-bit comparator greater for signal <saidaregis$cmp_gt0000> created at line 29.
-    Found 4-bit comparator lessequal for signal <saidaregis$cmp_le0000> created at line 27.
-    Found 4-bit comparator less for signal <saidaregis$cmp_lt0000> created at line 33.
+    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 37.
+    Found 4-bit comparator greater for signal <saidaregis$cmp_gt0000> created at line 32.
+    Found 4-bit comparator lessequal for signal <saidaregis$cmp_le0000> created at line 30.
+    Found 4-bit comparator less for signal <saidaregis$cmp_lt0000> created at line 36.
     Found 1-bit register for signal <tiraproximo>.
-    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 36.
     Summary:
 	inferred   1 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
@@ -258,13 +259,13 @@ Unit <ContadorDezenaSegundos> synthesized.
 Synthesizing Unit <ContadorSegundos>.
     Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorSegundos.vhd".
     Found 1-bit register for signal <resetaAnterior>.
-    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 30.
-    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 28.
-    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 34.
+    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 33.
+    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 31.
+    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 37.
     Found 4-bit register for signal <saidaregis>.
-    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 35.
+    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 38.
     Found 1-bit register for signal <tiraproximo>.
-    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 34.
+    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 37.
     Summary:
 	inferred   2 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
@@ -275,13 +276,13 @@ Unit <ContadorSegundos> synthesized.
 Synthesizing Unit <ContadorDezenaMinutos>.
     Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaMinutos.vhd".
     Found 1-bit register for signal <resetaAnterior>.
-    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 34.
-    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 32.
-    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 38.
+    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 37.
+    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 35.
+    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 41.
     Found 4-bit register for signal <saidaregis>.
-    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 39.
+    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 42.
     Found 1-bit register for signal <tiraproximo>.
-    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 38.
+    Found 4-bit comparator greatequal for signal <tiraproximo$cmp_ge0000> created at line 41.
     Summary:
 	inferred   2 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
@@ -292,11 +293,11 @@ Unit <ContadorDezenaMinutos> synthesized.
 Synthesizing Unit <ContadorMinutos>.
     Related source file is "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorMinutos.vhd".
     Found 1-bit register for signal <resetaAnterior>.
-    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 31.
-    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 29.
-    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 35.
+    Found 4-bit comparator greater for signal <resetaAnterior$cmp_gt0000> created at line 34.
+    Found 4-bit comparator lessequal for signal <resetaAnterior$cmp_le0000> created at line 32.
+    Found 4-bit comparator less for signal <resetaAnterior$cmp_lt0000> created at line 38.
     Found 4-bit register for signal <saidaregis>.
-    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 36.
+    Found 4-bit subtractor for signal <saidaregis$addsub0000> created at line 39.
     Summary:
 	inferred   5 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
@@ -309,9 +310,9 @@ Synthesizing Unit <Display7seg>.
     Found 4x4-bit ROM for signal <estado$rom0000>.
     Found 16x7-bit ROM for signal <saida7>.
     Found 32-bit up counter for signal <count>.
-    Found 32-bit comparator less for signal <count$cmp_lt0000> created at line 27.
+    Found 32-bit comparator less for signal <count$cmp_lt0000> created at line 30.
     Found 2-bit up counter for signal <estado>.
-    Found 2-bit comparator less for signal <estado$cmp_lt0000> created at line 28.
+    Found 2-bit comparator less for signal <estado$cmp_lt0000> created at line 31.
     Found 4-bit 4-to-1 multiplexer for signal <selDisplay>.
     Summary:
 	inferred   2 ROM(s).
@@ -433,7 +434,7 @@ Optimizing unit <ContadorDezenaMinutos> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block SD_COMPLETO, actual ratio is 10.
+Found area constraint ratio of 100 (+ 5) on block SD_COMPLETO, actual ratio is 11.
 
 Final Macro Processing ...
 
@@ -471,17 +472,17 @@ Design Statistics
 # IOs                              : 23
 
 Cell Usage :
-# BELS                             : 340
+# BELS                             : 348
 #      GND                         : 1
-#      INV                         : 8
-#      LUT1                        : 65
-#      LUT2                        : 15
-#      LUT3                        : 29
+#      INV                         : 13
+#      LUT1                        : 68
+#      LUT2                        : 16
+#      LUT3                        : 28
 #      LUT3_D                      : 1
 #      LUT3_L                      : 3
-#      LUT4                        : 53
+#      LUT4                        : 49
 #      LUT4_L                      : 2
-#      MUXCY                       : 83
+#      MUXCY                       : 87
 #      MUXF5                       : 15
 #      VCC                         : 1
 #      XORCY                       : 64
@@ -505,9 +506,9 @@ Device utilization summary:
 
 Selected Device : 3s100ecp132-4 
 
- Number of Slices:                       92  out of    960     9%  
+ Number of Slices:                       94  out of    960     9%  
  Number of Slice Flip Flops:            102  out of   1920     5%  
- Number of 4 input LUTs:                176  out of   1920     9%  
+ Number of 4 input LUTs:                180  out of   1920     9%  
  Number of IOs:                          23
  Number of bonded IOBs:                  23  out of     83    27%  
     IOB Flip Flops:                       1
@@ -558,7 +559,7 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 6.647ns (Maximum Frequency: 150.440MHz)
+   Minimum period: 6.706ns (Maximum Frequency: 149.117MHz)
    Minimum input arrival time before clock: 5.310ns
    Maximum output required time after clock: 8.070ns
    Maximum combinational path delay: No path found
@@ -569,20 +570,20 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK_SD'
-  Clock period: 6.647ns (frequency: 150.440MHz)
-  Total number of paths / destination ports: 3353 / 187
+  Clock period: 6.706ns (frequency: 149.117MHz)
+  Total number of paths / destination ports: 3044 / 187
 -------------------------------------------------------------------------
-Delay:               6.647ns (Levels of Logic = 13)
-  Source:            FDTemporizador/p6/count_1 (FF)
+Delay:               6.706ns (Levels of Logic = 14)
+  Source:            FDTemporizador/p6/count_5 (FF)
   Destination:       FDTemporizador/p6/estado_1 (FF)
   Source Clock:      CLK_SD rising
   Destination Clock: CLK_SD rising
 
-  Data Path: FDTemporizador/p6/count_1 to FDTemporizador/p6/estado_1
+  Data Path: FDTemporizador/p6/count_5 to FDTemporizador/p6/estado_1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              2   0.591   0.622  FDTemporizador/p6/count_1 (FDTemporizador/p6/count_1)
+     FDR:C->Q              2   0.591   0.622  FDTemporizador/p6/count_5 (FDTemporizador/p6/count_5)
      LUT1:I0->O            1   0.704   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<0>_rt (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<0>_rt)
      MUXCY:S->O            1   0.464   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<0> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<0>)
      MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<1> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<1>)
@@ -594,12 +595,13 @@ Delay:               6.647ns (Levels of Logic = 13)
      MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<7> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<7>)
      MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<8> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<8>)
      MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<9> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<9>)
-     MUXCY:CI->O          35   0.331   1.342  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<10> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<10> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<10>)
+     MUXCY:CI->O          35   0.331   1.342  FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<11> (FDTemporizador/p6/Mcompar_count_cmp_lt0000_cy<11>)
      LUT2:I1->O            2   0.704   0.447  FDTemporizador/p6/estado_and00001 (FDTemporizador/p6/estado_and0000)
      FDRE:R                    0.911          FDTemporizador/p6/estado_0
     ----------------------------------------
-    Total                      6.647ns (4.236ns logic, 2.411ns route)
-                                       (63.7% logic, 36.3% route)
+    Total                      6.706ns (4.295ns logic, 2.411ns route)
+                                       (64.0% logic, 36.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_SD'
@@ -667,11 +669,11 @@ Offset:              8.070ns (Levels of Logic = 4)
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.15 secs
+Total CPU time to Xst completion: 4.07 secs
  
 --> 
 
-Total memory usage is 4506644 kilobytes
+Total memory usage is 4506580 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    5 (   0 filtered)

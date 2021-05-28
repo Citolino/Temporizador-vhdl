@@ -1,21 +1,9 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    17:59:55 05/27/2021 
--- Design Name: 
+-- Engineer: Engineer:Eduardo Alves Leonardo 082170006
+-- João Victor Vieira 082170018	
+-- Jonathan Citolino  082170019
+-- William Stofel 082170033
 -- Module Name:    SD_COMPLETO - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
 ----------------------------------------------------------------------------------
 library IEEE;
 	   

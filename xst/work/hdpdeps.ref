@@ -1,46 +1,46 @@
 V3 42
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Contador.vhd" 2021/05/27.17:28:37 P.20131013
-EN work/ContadorDeClock 1622150243 \
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Contador.vhd" 2021/05/28.16:21:12 P.20131013
+EN work/ContadorDeClock 1622229747 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Contador.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/ContadorDeClock/Behavioral 1622150244 \
+AR work/ContadorDeClock/Behavioral 1622229748 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Contador.vhd" \
-      EN work/ContadorDeClock 1622150243
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaMinutos.vhd" 2021/05/27.17:28:37 P.20131013
-EN work/ContadorDezenaMinutos 1622150249 \
+      EN work/ContadorDeClock 1622229747
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaMinutos.vhd" 2021/05/28.16:21:39 P.20131013
+EN work/ContadorDezenaMinutos 1622229753 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaMinutos.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ContadorDezenaMinutos/Behavioral 1622150250 \
+AR work/ContadorDezenaMinutos/Behavioral 1622229754 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaMinutos.vhd" \
-      EN work/ContadorDezenaMinutos 1622150249
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaSegundos.vhd" 2021/05/27.17:28:37 P.20131013
-EN work/ContadorDezenaSegundos 1622150245 \
+      EN work/ContadorDezenaMinutos 1622229753
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaSegundos.vhd" 2021/05/28.16:21:32 P.20131013
+EN work/ContadorDezenaSegundos 1622229749 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaSegundos.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ContadorDezenaSegundos/Behavioral 1622150246 \
+AR work/ContadorDezenaSegundos/Behavioral 1622229750 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaSegundos.vhd" \
-      EN work/ContadorDezenaSegundos 1622150245
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorMinutos.vhd" 2021/05/27.17:28:37 P.20131013
-EN work/ContadorMinutos 1622150251 \
+      EN work/ContadorDezenaSegundos 1622229749
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorMinutos.vhd" 2021/05/28.16:21:42 P.20131013
+EN work/ContadorMinutos 1622229755 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorMinutos.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ContadorMinutos/Behavioral 1622150252 \
+AR work/ContadorMinutos/Behavioral 1622229756 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorMinutos.vhd" \
-      EN work/ContadorMinutos 1622150251
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorSegundos.vhd" 2021/05/27.17:28:37 P.20131013
-EN work/ContadorSegundos 1622150247 \
+      EN work/ContadorMinutos 1622229755
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorSegundos.vhd" 2021/05/28.16:21:35 P.20131013
+EN work/ContadorSegundos 1622229751 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorSegundos.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ContadorSegundos/Behavioral 1622150248 \
+AR work/ContadorSegundos/Behavioral 1622229752 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorSegundos.vhd" \
-      EN work/ContadorSegundos 1622150247
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Display7seg.vhd" 2021/05/27.17:28:37 P.20131013
-EN work/Display7seg 1622150253 \
+      EN work/ContadorSegundos 1622229751
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Display7seg.vhd" 2021/05/28.16:21:45 P.20131013
+EN work/Display7seg 1622229757 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Display7seg.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Display7seg/Behavioral 1622150254 \
+AR work/Display7seg/Behavioral 1622229758 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Display7seg.vhd" \
-      EN work/Display7seg 1622150253
+      EN work/Display7seg 1622229757
 FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/registrador.vhd" 2021/05/21.14:35:47 P.20131013
 EN work/registrador 1621619873 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/registrador.vhd" \
@@ -48,33 +48,33 @@ EN work/registrador 1621619873 \
 AR work/registrador/Behavioral 1621619874 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/registrador.vhd" \
       EN work/registrador 1621619873
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/SD_COMPLETO.vhd" 2021/05/27.18:10:08 P.20131013
-EN work/SD_COMPLETO 1622150261 \
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/SD_COMPLETO.vhd" 2021/05/28.16:22:17 P.20131013
+EN work/SD_COMPLETO 1622229765 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/SD_COMPLETO.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/SD_COMPLETO/Behavioral 1622150262 \
+AR work/SD_COMPLETO/Behavioral 1622229766 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/SD_COMPLETO.vhd" \
-      EN work/SD_COMPLETO 1622150261 CP UC_ASM_temporizador CP temporizador
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/temporizador.vhd" 2021/05/27.18:17:14 P.20131013
-EN work/temporizador 1622150259 \
+      EN work/SD_COMPLETO 1622229765 CP UC_ASM_temporizador CP temporizador
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/temporizador.vhd" 2021/05/28.16:22:21 P.20131013
+EN work/temporizador 1622229763 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/temporizador.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/temporizador/Behavioral 1622150260 \
+AR work/temporizador/Behavioral 1622229764 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/temporizador.vhd" \
-      EN work/temporizador 1622150259 CP ContadorDeClock CP ContadorDezenaSegundos \
+      EN work/temporizador 1622229763 CP ContadorDeClock CP ContadorDezenaSegundos \
       CP ContadorSegundos CP ContadorDezenaMinutos CP ContadorMinutos \
       CP Display7seg CP ValidaTermino
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC-ASM_temporizador.vhd" 2021/05/27.17:47:31 P.20131013
-EN work/UC_ASM_temporizador 1622150257 \
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC-ASM_temporizador.vhd" 2021/05/28.16:21:59 P.20131013
+EN work/UC_ASM_temporizador 1622229761 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC-ASM_temporizador.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/UC_ASM_temporizador/Behavioral 1622150258 \
+AR work/UC_ASM_temporizador/Behavioral 1622229762 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC-ASM_temporizador.vhd" \
-      EN work/UC_ASM_temporizador 1622150257
-FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ValidaTermino.vhd" 2021/05/27.17:18:14 P.20131013
-EN work/ValidaTermino 1622150255 \
+      EN work/UC_ASM_temporizador 1622229761
+FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ValidaTermino.vhd" 2021/05/28.16:21:48 P.20131013
+EN work/ValidaTermino 1622229759 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ValidaTermino.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/ValidaTermino/Behavioral 1622150256 \
+AR work/ValidaTermino/Behavioral 1622229760 \
       FL "C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ValidaTermino.vhd" \
-      EN work/ValidaTermino 1622150255
+      EN work/ValidaTermino 1622229759

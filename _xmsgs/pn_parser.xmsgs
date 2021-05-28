@@ -8,33 +8,6 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Contador.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaMinutos.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorDezenaSegundos.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorMinutos.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ContadorSegundos.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/Display7seg.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/SD_COMPLETO.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/UC-ASM_temporizador.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/ValidaTermino.vhd&quot; into library work</arg>
-</msg>
-
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Usuario/Desktop/N2- ARQUITETURA/TEMPORIZADOR/temporizador.vhd&quot; into library work</arg>
 </msg>
 

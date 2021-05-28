@@ -1,5 +1,8 @@
 ----------------------------------------------------------------------------------
--- Engineer: Engineer:Eduardo Alves Leonardo, João Victor Vieira, Jonathan Citolino e William Stofel
+-- Engineer: Engineer:Eduardo Alves Leonardo 082170006
+-- João Victor Vieira 082170018	
+-- Jonathan Citolino  082170019
+-- William Stofel 082170033
 -- Module Name:    temporizador - Behavioral 
 ----------------------------------------------------------------------------------
 library IEEE;

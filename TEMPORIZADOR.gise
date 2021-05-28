@@ -200,12 +200,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1622150247" xil_pn:in_ck="-7745219079822357769" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5495260562390447716" xil_pn:start_ts="1622150241">
+    <transform xil_pn:end_ts="1622229752" xil_pn:in_ck="-7745219079822357769" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5495260562390447716" xil_pn:start_ts="1622229741">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="SD_COMPLETO.lso"/>
       <outfile xil_pn:name="SD_COMPLETO.ngc"/>
